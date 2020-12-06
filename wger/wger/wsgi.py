@@ -31,5 +31,5 @@ application = get_wsgi_application()
 # from helloworld.wsgi import HelloWorldApplication
 # application = HelloWorldApplication(application)
 
-from whitenoise.django import DjangoWhiteNoise
-application = DjangoWhiteNoise(application)
+""" from whitenoise.django import DjangoWhiteNoise
+application = DjangoWhiteNoise(application) """
