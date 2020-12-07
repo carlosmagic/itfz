@@ -22,7 +22,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'C:/Users/a/Desktop/itfz/wger/database.sqlite',
+        'NAME': 'C:/Users/a/Desktop/itfz/itfz/wger/database.sqlite',
         'USER': '',
         'PASSWORD': '',
         'HOST': '',
@@ -44,7 +44,7 @@ NOCAPTCHA = True
 # The site's URL (e.g. http://www.my-local-gym.com or http://localhost:8000)
 # This is needed for uploaded files and images (exercise images, etc.) to be
 # properly served.
-SITE_URL = 'http://localhost:8000'
+SITE_URL = 'https://itfz.herokuapp.com/'
 
 # Path to uploaded files
 # Absolute filesystem path to the directory that will hold user-uploaded files.
